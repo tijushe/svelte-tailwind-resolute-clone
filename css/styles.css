@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  text-decoration: none;
+  @apply .text-blue-resolute;
+}
+
+.outline-0 {
+  outline: 0;
+}
+
+.w-left {
+  width: 225px;
+}
+
+.w-right {
+  width: 320px;
+}
+
+.fix-negative-margin {
+  margin-left: -4px;
+}
+
+.container-resolute {
+  max-width: 1000px;
+}
+
+.border-t-blue-resolute {
+  border-top-color: #149ED4 !important;
+}
+
+.border-t-red {
+  border-top-color: #e3342f !important;
+}
+
+.border-t-yellow {
+  border-top-color: #f2d024 !important;
+}
+
+.table th {
+  border-top: 0;
+}
+
+.table td {
+  border-bottom: 1px solid #dee2e6;
+}
